@@ -1,0 +1,666 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arav Raj | B.Tech CSE Portfolio</title>
+    <meta name="description" content="Personal portfolio of Arav Raj, a B.Tech Computer Science Engineering student at Galgotias University. Aspiring software developer and tech enthusiast.">
+    <meta name="keywords" content="Arav Raj, Portfolio, Galgotias University, B.Tech CSE, Software Developer, Web Developer, Coding, Python, Java, React">
+    <meta name="author" content="Arav Raj">
+    
+    <!-- Google Fonts: Outfit (Headings) & Inter (Body) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+    
+    <!-- FontAwesome for Premium Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    
+    <!-- Custom Style Sheet -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Top Scroll Progress Indicator -->
+    <div id="scroll-progress"></div>
+
+    <!-- Custom Cursor Glow -->
+    <div class="cursor-dot"></div>
+    <div class="cursor-outline"></div>
+
+    <!-- Navigation Header -->
+    <header class="header">
+        <div class="nav-container">
+            <a href="#" class="logo">
+                <span class="logo-accent">&lt;</span>ARAV RAJ<span class="logo-accent"> /&gt;</span>
+            </a>
+            
+            <nav class="nav-menu">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#education" class="nav-link">Education</a>
+                <a href="#skills" class="nav-link">Skills</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#achievements" class="nav-link">Achievements</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero-section">
+        <div class="grid-background"></div>
+        <div class="glowing-orb blue-orb"></div>
+        <div class="glowing-orb purple-orb"></div>
+        
+        <div class="container hero-container">
+            <div class="hero-content">
+                <span class="hero-greeting animate-fade">WELCOME TO MY PORTFOLIO</span>
+                <h1 class="hero-title animate-fade">
+                    <span class="text-glow">ARAV RAJ</span>
+                </h1>
+                <div class="typing-container animate-fade">
+                    <span class="static-txt">I am a </span>
+                    <span id="typed-text"></span><span class="cursor-blink">|</span>
+                </div>
+                <p class="hero-description animate-fade">
+                    Passionate Computer Science student at Galgotias University with an interest in software development, problem solving, AI, and modern technologies. I enjoy building projects and continuously learning new skills.
+                </p>
+                <div class="hero-buttons animate-fade">
+                    <a href="#contact" class="btn btn-primary cursor-hover">
+                        <span>Contact Me</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                    <a href="#" class="btn btn-secondary cursor-hover" download="Arav_Raj_Resume.pdf">
+                        <span>Download Resume</span>
+                        <i class="fas fa-download"></i>
+                    </a>
+                </div>
+                <div class="social-links animate-fade">
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="social-icon cursor-hover">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub" class="social-icon cursor-hover">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="social-icon cursor-hover">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="mailto:aravraj@example.com" aria-label="Email" class="social-icon cursor-hover">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                </div>
+            </div>
+            
+            <div class="hero-visual animate-fade">
+                <div class="profile-container">
+                    <div class="profile-neon-ring ring-1"></div>
+                    <div class="profile-neon-ring ring-2"></div>
+                    <div class="profile-frame">
+                        <img src="assets/images/avatar.png" alt="Arav Raj Profile Image" class="profile-img">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-down">
+            <span class="scroll-down-text">Scroll Down</span>
+            <div class="scroll-down-mouse">
+                <div class="scroll-down-wheel"></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section-padding">
+        <div class="container">
+            <div class="section-header animate-reveal">
+                <span class="section-subtitle">01. Getting to know me</span>
+                <h2 class="section-title">About Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="about-grid">
+                <div class="about-info animate-reveal">
+                    <p class="about-paragraph">
+                        Hello! I'm <strong class="text-color-primary">Arav Raj</strong>, a technology enthusiast based in India. I am currently pursuing my Bachelor of Technology in Computer Science Engineering at <strong class="text-color-secondary">Galgotias University</strong>. 
+                    </p>
+                    <p class="about-paragraph">
+                        My fascination with technology began when I wrote my first line of code, opening the door to creating infinite digital solutions. Since then, I've spent my time developing robust applications, exploring artificial intelligence, and mastering software development principles.
+                    </p>
+                    <p class="about-paragraph">
+                        I am dedicated to writing clean, optimized code and building user-centric interfaces. I view coding not just as a career path, but as a medium to translate creative ideas into functional tools that solve real-world problems.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number">B.Tech</span>
+                            <span class="stat-label">CSE Student</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Projects Built</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">100+</span>
+                            <span class="stat-label">LeetCode Solved</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="about-cards animate-reveal">
+                    <div class="focus-card cursor-hover">
+                        <div class="focus-icon-box">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <h3>Clean Coding</h3>
+                        <p>Focusing on readable, modular, and maintainable software architectures.</p>
+                    </div>
+                    
+                    <div class="focus-card cursor-hover">
+                        <div class="focus-icon-box">
+                            <i class="fas fa-brain"></i>
+                        </div>
+                        <h3>AI & Automation</h3>
+                        <p>Integrating artificial intelligence, chatbots, and automating daily workflows.</p>
+                    </div>
+                    
+                    <div class="focus-card cursor-hover">
+                        <div class="focus-icon-box">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Modern Web</h3>
+                        <p>Developing visually striking, high-performance web applications using current stacks.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="section-padding section-alt-bg">
+        <div class="container">
+            <div class="section-header animate-reveal">
+                <span class="section-subtitle">02. My Academic Path</span>
+                <h2 class="section-title">Education</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="education-timeline">
+                <div class="timeline-item animate-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2023 - 2027</div>
+                    <div class="timeline-content glass-card cursor-hover">
+                        <div class="timeline-header">
+                            <h3>Bachelor of Technology (B.Tech)</h3>
+                            <span class="education-tag">Computer Science Engineering</span>
+                        </div>
+                        <h4 class="university-name">Galgotias University</h4>
+                        <p class="education-description">
+                            Currently pursuing a comprehensive curriculum including Data Structures & Algorithms, Database Management Systems, Operating Systems, Web Technologies, Computer Networks, and Artificial Intelligence.
+                        </p>
+                        <div class="education-details">
+                            <span><i class="fas fa-map-marker-alt"></i> Greater Noida, UP, India</span>
+                            <span><i class="fas fa-graduation-cap"></i> Expected Graduation: 2027</span>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="timeline-item animate-reveal">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-content glass-card cursor-hover">
+                        <div class="timeline-header">
+                            <h3>Senior Secondary Education (Class XII)</h3>
+                            <span class="education-tag">Science (PCM)</span>
+                        </div>
+                        <h4 class="university-name">CBSE Affiliate Board</h4>
+                        <p class="education-description">
+                            Completed high school education specializing in Physics, Chemistry, Mathematics, and Computer Science with an emphasis on foundational problem-solving and programming skills.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section-padding">
+        <div class="container">
+            <div class="section-header animate-reveal">
+                <span class="section-subtitle">03. What I excel at</span>
+                <h2 class="section-title">Skills & Technologies</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="skills-container">
+                <!-- Skill Category: Languages -->
+                <div class="skills-category-card glass-card animate-reveal">
+                    <div class="skills-category-header">
+                        <i class="fas fa-laptop-code"></i>
+                        <h3>Programming Languages</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-cplusplus font-icon-c"></i> C / C++</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-java"></i> Java</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-python"></i> Python</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-js-square"></i> JavaScript</span>
+                                <span class="skill-percentage">75%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 75%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Category: Web Technologies -->
+                <div class="skills-category-card glass-card animate-reveal">
+                    <div class="skills-category-header">
+                        <i class="fas fa-globe"></i>
+                        <h3>Web Technologies</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-html5"></i> HTML5 & CSS3</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-react"></i> React.js</span>
+                                <span class="skill-percentage">80%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 80%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-node-js"></i> Node.js & Express</span>
+                                <span class="skill-percentage">70%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 70%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Skill Category: Tools -->
+                <div class="skills-category-card glass-card animate-reveal">
+                    <div class="skills-category-header">
+                        <i class="fas fa-tools"></i>
+                        <h3>Development Tools</h3>
+                    </div>
+                    <div class="skills-list">
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-git-alt"></i> Git Version Control</span>
+                                <span class="skill-percentage">85%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 85%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fab fa-github"></i> GitHub Platform</span>
+                                <span class="skill-percentage">90%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 90%;"></div>
+                            </div>
+                        </div>
+                        
+                        <div class="skill-item cursor-hover">
+                            <div class="skill-info">
+                                <span class="skill-name"><i class="fas fa-terminal"></i> VS Code & Terminal</span>
+                                <span class="skill-percentage">95%</span>
+                            </div>
+                            <div class="skill-bar-wrapper">
+                                <div class="skill-bar-progress" style="width: 95%;"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section-padding section-alt-bg">
+        <div class="container">
+            <div class="section-header animate-reveal">
+                <span class="section-subtitle">04. Realized Ideas</span>
+                <h2 class="section-title">My Projects</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="projects-grid">
+                <!-- Project 1: Portfolio Website -->
+                <div class="project-card glass-card animate-reveal cursor-hover">
+                    <div class="project-img-box">
+                        <img src="assets/images/project_portfolio.png" alt="Portfolio Website Mockup" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-icon-link" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-icon-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Futuristic Portfolio Website</h3>
+                        <p class="project-desc">
+                            A highly optimized, dark neon-themed responsive portfolio site. Showcases interactive visual design, custom spring mouse cursor, scroll-linked progress indicators, and dynamic CSS layouts.
+                        </p>
+                        <div class="project-tags">
+                            <span>HTML5</span>
+                            <span>CSS3</span>
+                            <span>JavaScript</span>
+                            <span>Scroll-Trigger</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 2: Student Management System -->
+                <div class="project-card glass-card animate-reveal cursor-hover">
+                    <div class="project-img-box">
+                        <img src="assets/images/project_student_sys.png" alt="Student Management System Mockup" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-icon-link" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-icon-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Student Management System</h3>
+                        <p class="project-desc">
+                            A desktop database application designed to manage student profiles, grade tracks, attendance records, and faculty allocations. Built with robust relational schema and optimized query processing.
+                        </p>
+                        <div class="project-tags">
+                            <span>Java</span>
+                            <span>JDBC</span>
+                            <span>MySQL</span>
+                            <span>Swing UI</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 3: AI Chatbot -->
+                <div class="project-card glass-card animate-reveal cursor-hover">
+                    <div class="project-img-box">
+                        <img src="assets/images/project_chatbot.png" alt="AI Chatbot Mockup" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-icon-link" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-icon-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Holographic AI Chatbot</h3>
+                        <p class="project-desc">
+                            An intelligent conversational chatbot integrated with generative language APIs. Features sentiment analysis, real-time message stream styling, context memory, and custom system-prompt configuration.
+                        </p>
+                        <div class="project-tags">
+                            <span>React</span>
+                            <span>Python</span>
+                            <span>Gemini API</span>
+                            <span>Flask</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn btn-sm btn-primary">Live Demo <i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project 4: Future Project Placeholder -->
+                <div class="project-card glass-card animate-reveal cursor-hover">
+                    <div class="project-img-box">
+                        <img src="assets/images/project_placeholder.png" alt="Coming Soon Mockup" class="project-img">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com" target="_blank" class="project-icon-link" aria-label="GitHub Repository"><i class="fab fa-github"></i></a>
+                                <a href="#" class="project-icon-link" aria-label="Live Demo"><i class="fas fa-external-link-alt"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Next-Gen Cyber System</h3>
+                        <p class="project-desc">
+                            Researching and conceptualizing a cloud-based microservice architecture that aggregates cross-platform study trackers. Featuring predictive workload metrics using neural networks.
+                        </p>
+                        <div class="project-tags">
+                            <span>Node.js</span>
+                            <span>Docker</span>
+                            <span>TensorFlow</span>
+                            <span>GraphQL</span>
+                        </div>
+                        <div class="project-actions">
+                            <a href="https://github.com" target="_blank" class="btn btn-sm btn-secondary"><i class="fab fa-github"></i> Code</a>
+                            <a href="#" class="btn btn-sm btn-primary">Coming Soon <i class="fas fa-lock"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Achievements Section -->
+    <section id="achievements" class="section-padding">
+        <div class="container">
+            <div class="section-header animate-reveal">
+                <span class="section-subtitle">05. Milestones & Honors</span>
+                <h2 class="section-title">Achievements</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="achievements-grid">
+                <div class="achievement-card glass-card animate-reveal cursor-hover">
+                    <div class="achievement-icon">
+                        <i class="fas fa-trophy"></i>
+                    </div>
+                    <h3>Hackathon Top Finish</h3>
+                    <p>Secured 2nd place in the University Annual Hackathon with a prototype for smart campus logistics optimization built in 24 hours.</p>
+                    <span class="achievement-date">2025</span>
+                </div>
+
+                <div class="achievement-card glass-card animate-reveal cursor-hover">
+                    <div class="achievement-icon">
+                        <i class="fas fa-award"></i>
+                    </div>
+                    <h3>Coding Excellence</h3>
+                    <p>Achieved top 5% rank in weekly coding challenges on platforms like LeetCode and CodeChef, maintaining a 400+ day problem-solving streak.</p>
+                    <span class="achievement-date">Ongoing</span>
+                </div>
+
+                <div class="achievement-card glass-card animate-reveal cursor-hover">
+                    <div class="achievement-icon">
+                        <i class="fas fa-certificate"></i>
+                    </div>
+                    <h3>Professional Credentials</h3>
+                    <p>Earned recognized certifications in Full Stack Web Development and Artificial Intelligence Foundations from leading learning academies.</p>
+                    <span class="achievement-date">2024</span>
+                </div>
+
+                <div class="achievement-card glass-card animate-reveal cursor-hover">
+                    <div class="achievement-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3>Academic Honors</h3>
+                    <p>Maintained a top CGPA in Computer Science Engineering semesters at Galgotias University, qualifying for merit scholarships.</p>
+                    <span class="achievement-date">2023 - Present</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section-padding section-alt-bg">
+        <div class="container">
+            <div class="section-header animate-reveal">
+                <span class="section-subtitle">06. Reach Out</span>
+                <h2 class="section-title">Contact Me</h2>
+                <div class="title-underline"></div>
+            </div>
+            
+            <div class="contact-wrapper">
+                <div class="contact-info animate-reveal">
+                    <h3>Let's collaborate on something awesome!</h3>
+                    <p>
+                        I'm currently seeking internship opportunities, freelance projects, or just interesting tech conversations. Feel free to send a message and I'll get back to you as soon as possible.
+                    </p>
+                    
+                    <div class="contact-details">
+                        <div class="contact-detail-item">
+                            <div class="detail-icon"><i class="fas fa-envelope"></i></div>
+                            <div>
+                                <span>Email</span>
+                                <a href="mailto:aravraj@example.com" class="cursor-hover">aravraj@example.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-detail-item">
+                            <div class="detail-icon"><i class="fas fa-map-marker-alt"></i></div>
+                            <div>
+                                <span>Location</span>
+                                <p>Greater Noida, Uttar Pradesh, India</p>
+                            </div>
+                        </div>
+
+                        <div class="contact-detail-item">
+                            <div class="detail-icon"><i class="fas fa-university"></i></div>
+                            <div>
+                                <span>University</span>
+                                <p>Galgotias University</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container glass-card animate-reveal">
+                    <form id="contact-form" class="contact-form">
+                        <div class="form-group">
+                            <input type="text" id="name" name="name" required placeholder=" " class="form-control">
+                            <label for="name" class="form-label">Your Name</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <input type="email" id="email" name="email" required placeholder=" " class="form-control">
+                            <label for="email" class="form-label">Your Email</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <div class="form-group">
+                            <textarea id="message" name="message" required placeholder=" " class="form-control" rows="5"></textarea>
+                            <label for="message" class="form-label">Your Message</label>
+                            <span class="form-line"></span>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-submit cursor-hover">
+                            <span>Send Message</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container footer-container">
+            <div class="footer-left">
+                <a href="#" class="logo cursor-hover">
+                    <span class="logo-accent">&lt;</span>ARAV RAJ<span class="logo-accent"> /&gt;</span>
+                </a>
+                <p>B.Tech CSE Student & Aspiring Software Developer</p>
+            </div>
+            
+            <div class="footer-center">
+                <p class="copyright">Designed and Developed by Arav Raj &copy; 2026</p>
+            </div>
+            
+            <div class="footer-right">
+                <div class="footer-socials">
+                    <a href="https://linkedin.com" target="_blank" aria-label="LinkedIn" class="cursor-hover"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com" target="_blank" aria-label="GitHub" class="cursor-hover"><i class="fab fa-github"></i></a>
+                    <a href="https://instagram.com" target="_blank" aria-label="Instagram" class="cursor-hover"><i class="fab fa-instagram"></i></a>
+                    <a href="mailto:aravraj@example.com" aria-label="Email" class="cursor-hover"><i class="fas fa-envelope"></i></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button id="back-to-top" class="back-to-top cursor-hover" aria-label="Back to Top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+
+    <!-- Custom Success Toast Notification -->
+    <div id="toast" class="toast">
+        <div class="toast-content">
+            <i class="fas fa-check-circle toast-icon"></i>
+            <div class="toast-message">
+                <h4>Message Sent!</h4>
+                <p>Thank you. Arav will respond shortly.</p>
+            </div>
+        </div>
+        <div class="toast-progress"></div>
+    </div>
+
+    <!-- Script File -->
+    <script src="script.js"></script>
+</body>
+</html>
